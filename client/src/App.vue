@@ -1,30 +1,33 @@
 <script setup>
 import Navbar from './components/Navbar.vue';
 import { AppState } from './AppState.js';
-
 </script>
 
 <template>
   <header>
     <Navbar />
   </header>
-  <main>
-    <router-view />
+  <main class="bg-page container-fluid">
+    <div class="row">
+      <div class="col-2 bg-secondary text-light fs-4 pt-3 d-flex flex-column justify-content-around">
+        <p class="text-center m-0"><i class="mdi mdi-truck-outline"></i> Receiving</p>
+        <hr />
+        <p class="text-center m-0"><i class="mdi mdi-treasure-chest-outline"></i> Inventory</p>
+        <hr />
+        <p class="text-center m-0"><i class="mdi mdi-hammer-screwdriver"></i> Production</p>
+        <hr />
+        <p class="text-center m-0"><i class="mdi mdi-cash-multiple"></i> Sales</p>
+      </div>
+      <router-view class="col" />
+    </div>
   </main>
-  <footer class="bg-dark text-light">
-    Made with 💖 by CodeWorks
-  </footer>
 </template>
 
 <style lang="scss">
 @import '@/assets/scss/main.scss';
 
 :root {
-  --main-height: calc(100vh - 32px - 64px);
-}
-
-main {
-  background-color: #F7ECDA;
+  --main-height: 100vh;
 }
 
 footer {
