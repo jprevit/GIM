@@ -3,31 +3,13 @@
 </script>
 
 <template>
-  <div class="home flex-grow-1 d-flex flex-column align-items-center justify-content-center">
-    <div class="home-card p-5 card align-items-center shadow rounded elevation-3">
-      <img src="src\assets\img\Prev-Gem.svg" alt="Gem" class="img-fluid col-1">
-    </div>
-  </div>
+
+  <img src="src\assets\img\Prev-Gem.svg" alt="Gem" class="img-fluid col-10">
+
 </template>
 
 <style scoped lang="scss">
-.home {
-  display: grid;
-  height: 80vh;
-  place-content: center;
-  text-align: center;
-  user-select: none;
-
-  .home-card {
-    width: clamp(500px, 50vw, 100%);
-
-    >img {
-      height: 200px;
-      max-width: 200px;
-      width: 100%;
-      object-fit: contain;
-      object-position: center;
-    }
-  }
+img {
+  height: calc(100vh - 64px);
 }
 </style>
