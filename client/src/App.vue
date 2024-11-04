@@ -9,13 +9,10 @@ import { AppState } from './AppState.js';
   </header>
   <main class="bg-page container-fluid">
     <div class="row">
-      <div class="col-2 bg-secondary text-light fs-4 pt-3 d-flex flex-column justify-content-around">
+      <div class="col-2 bg-secondary text-light fs-4 pt-3 d-flex flex-column justify-content-around height">
         <p class="text-center m-0"><i class="mdi mdi-truck-outline"></i> Receiving</p>
-        <hr />
         <p class="text-center m-0"><i class="mdi mdi-treasure-chest-outline"></i> Inventory</p>
-        <hr />
         <p class="text-center m-0"><i class="mdi mdi-hammer-screwdriver"></i> Production</p>
-        <hr />
         <p class="text-center m-0"><i class="mdi mdi-cash-multiple"></i> Sales</p>
       </div>
       <router-view class="col" />
@@ -28,6 +25,10 @@ import { AppState } from './AppState.js';
 
 :root {
   --main-height: 100vh;
+}
+
+.height {
+  height: calc(100vh - 64px);
 }
 
 footer {

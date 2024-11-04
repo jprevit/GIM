@@ -5,9 +5,7 @@
 <template>
   <div class="home flex-grow-1 d-flex flex-column align-items-center justify-content-center">
     <div class="home-card p-5 card align-items-center shadow rounded elevation-3">
-      <h1 class="my-5 bg-dark text-white p-3 rounded text-center">
-        A pile of goblin valuables.
-      </h1>
+      <img src="src\assets\img\Prev-Gem.svg" alt="Gem" class="img-fluid col-1">
     </div>
   </div>
 </template>

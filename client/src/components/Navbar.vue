@@ -18,12 +18,12 @@ function toggleTheme() {
 </script>
 
 <template>
-  <nav class="navbar navbar-expand-sm navbar-dark bg-primary border px-3">
+  <nav class="navbar navbar-expand-sm navbar-dark bg-primary border ps-1 pe-3">
     <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
       <div class="d-flex flex-column align-items-center ">
         <div class="row img-fluid">
-          <img src="src\assets\img\Prev-Gem.svg" alt="Gem" class="img-thumbnail">
-          <p class="m-0 fs-2">Goblin Inventory Management</p>
+          <img src="src\assets\img\Prev-Gem.svg" alt="Gem" class="img-fluid col-1">
+          <p class="m-0 fs-2 col">Goblin Inventory Management</p>
         </div>
       </div>
     </router-link>
