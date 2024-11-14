@@ -1,6 +1,7 @@
 <script setup>
 import Navbar from './components/Navbar.vue';
 import { AppState } from './AppState.js';
+import Sidebar from './components/Sidebar.vue';
 </script>
 
 <template>
@@ -9,7 +10,8 @@ import { AppState } from './AppState.js';
   </header>
   <main class="bg-page container-fluid">
     <div class="row">
-      <div class="col-2 bg-secondary text-light fs-4 p-0 d-flex flex-column justify-content-around height">
+      <Sidebar />
+      <!-- <div class="col-2 bg-secondary text-light fs-4 p-0 d-flex flex-column justify-content-around height">
         <div class="h25 selectable align-content-center">
           <p class="text-center m-0 "><i class="mdi mdi-truck-outline"></i> Receiving</p>
         </div>
@@ -22,7 +24,7 @@ import { AppState } from './AppState.js';
         <div class="h25 selectable align-content-center">
           <p class="text-center m-0 "><i class="mdi mdi-cash-multiple"></i> Sales</p>
         </div>
-      </div>
+      </div> -->
       <router-view class="col" />
     </div>
   </main>
