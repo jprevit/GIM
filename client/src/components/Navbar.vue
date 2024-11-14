@@ -21,16 +21,13 @@ function toggleTheme() {
   <nav class="navbar navbar-expand-sm navbar-dark bg-primary ps-1 pe-3">
     <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
       <div class="d-flex flex-column align-items-center ">
-        <div class="row img-fluid">
-          <img src="src\assets\img\Prev-Gem.svg" alt="Gem" class="img-fluid col-1">
-          <p class="m-0 fs-2 col">Goblin Inventory Management</p>
+        <div class="row">
+          <img src="src\assets\img\Prev-Gem.svg" alt="Gem" class="img-fluid col-2 col-md-1">
+          <p class="m-0 fs-4 fs-md-2 col-6 col-md-11 d-none d-md-block">Goblin Inventory Management</p>
+          <p class="m-0 fs-4 fs-md-2 col-6 col-md-11 d-md-none d-block">G.I.M.</p>
         </div>
       </div>
     </router-link>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto">
 
