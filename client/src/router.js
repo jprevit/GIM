@@ -20,7 +20,16 @@ const routes = [
     path: '/Inventory',
     name: 'Inventory',
     component: loadPage('InventoryPage')
-  }
+  },
+  {
+    path: '/Production',
+    name: 'Production',
+    component: loadPage('ProductionPage')
+  },{
+    path: '/Sales',
+    name: 'Sales',
+    component: loadPage('SalesPage')
+  },
 ]
 
 export const router = createRouter({

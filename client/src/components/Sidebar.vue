@@ -13,12 +13,12 @@
                 <p class="text-center m-0 "><i class="mdi mdi-treasure-chest"></i> Inventory</p>
             </div>
         </router-link>
-        <router-link class="h25 selectable align-content-center navlink" :to="{ name: 'Receiving' }">
+        <router-link class="h25 selectable align-content-center navlink" :to="{ name: 'Production' }">
             <div class="h25 selectable align-content-center">
                 <p class="text-center m-0 "><i class="mdi mdi-hammer-screwdriver"></i> Production</p>
             </div>
         </router-link>
-        <router-link class="h25 selectable align-content-center navlink" :to="{ name: 'Receiving' }">
+        <router-link class="h25 selectable align-content-center navlink" :to="{ name: 'Sales' }">
             <div class="h25 selectable align-content-center">
                 <p class="text-center m-0 "><i class="mdi mdi-cash-multiple"></i> Sales</p>
             </div>
