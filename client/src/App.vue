@@ -27,6 +27,12 @@ import Sidebar from './components/Sidebar.vue';
   height: calc(100vh - 64px);
 }
 
+@media only screen and (max-width: 576px) {
+  .height {
+    height: calc(100vh - 55px);
+  }
+}
+
 .h25 {
   height: 25vh;
 }
