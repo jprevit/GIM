@@ -4,7 +4,7 @@
 
 <template>
 
-  <img src="src\assets\img\Prev-Gem.svg" alt="Gem" class="img-fluid col-10">
+  <img src="src\assets\img\Prev-Gem.svg" alt="Gem" class="img-fluid col-10" title="Goblin Inventory Management Logo">
 
 </template>
 
