@@ -1,31 +1,19 @@
 <script setup>
-import { onMounted, ref } from 'vue';
-import { loadState, saveState } from '../utils/Store.js';
-import Login from './Login.vue';
 
-const theme = ref(loadState('theme') || 'light')
-
-onMounted(() => {
-  document.documentElement.setAttribute('data-bs-theme', theme.value)
-})
-
-function toggleTheme() {
-  theme.value = theme.value == 'light' ? 'dark' : 'light'
-  document.documentElement.setAttribute('data-bs-theme', theme.value)
-  saveState('theme', theme.value)
-}
 
 </script>
 
 <template>
   <nav class="navbar navbar-expand-sm navbar-dark bg-primary ps-1 pe-3">
     <router-link class="navbar-brand d-flex ms-3" :to="{ name: 'Home' }">
-      <div class="d-flex align-items-center ">
-        <div class="row">
+      <div class="container ">
+        <div class="row justify-content-start align-items-center align-items-md-baseline">
           <img src="src\assets\img\Prev-Gem.svg" alt="Gem" class="img-fluid col-2 col-md-1"
             title="Goblin Inventory Management Logo">
-          <p class="m-0 fs-4 fs-md-2 col-6 col-md-11 d-none d-md-block textshadow">Goblin Inventory Management</p>
-          <p class="m-0 fs-4 fs-md-2 col-6 col-md-11 d-md-none d-block textshadow">G.I.M.</p>
+          <div class="col-6 col-md-10">
+            <p class="m-0 fs-4 fs-md-2 d-none d-md-block textshadow">Goblin Inventory Management</p>
+            <p class="m-0 fs-4 fs-md-2 d-md-none d-block textshadow">G.I.M.</p>
+          </div>
         </div>
       </div>
     </router-link>
