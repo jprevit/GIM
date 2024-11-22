@@ -39,7 +39,7 @@ import Sidebar from './components/Sidebar.vue';
 }
 
 .textshadow {
-  text-shadow: rgb(0, 0, 0) 1px 0px 5px;
+  text-shadow: rgb(1, 15, 79) 1px 0px 5px;
 }
 
 footer {
