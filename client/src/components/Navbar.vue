@@ -19,10 +19,11 @@ function toggleTheme() {
 
 <template>
   <nav class="navbar navbar-expand-sm navbar-dark bg-primary ps-1 pe-3">
-    <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
-      <div class="d-flex flex-column align-items-center ">
+    <router-link class="navbar-brand d-flex ms-3" :to="{ name: 'Home' }">
+      <div class="d-flex align-items-center ">
         <div class="row">
-          <img src="src\assets\img\Prev-Gem.svg" alt="Gem" class="img-fluid col-2 col-md-1">
+          <img src="src\assets\img\Prev-Gem.svg" alt="Gem" class="img-fluid col-2 col-md-1"
+            title="Goblin Inventory Management Logo">
           <p class="m-0 fs-4 fs-md-2 col-6 col-md-11 d-none d-md-block">Goblin Inventory Management</p>
           <p class="m-0 fs-4 fs-md-2 col-6 col-md-11 d-md-none d-block">G.I.M.</p>
         </div>
