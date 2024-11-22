@@ -4,7 +4,7 @@
 
 
 <template>
-    <div class="col-2 bg-secondary text-light fs-4 p-0 d-flex flex-column justify-content-around height">
+    <div class="col-2 bg-secondary text-light fs-4 p-0 d-flex flex-column justify-content-around height textshadow">
         <router-link class="justify-content-center align-content-center text-center navlink row me-0"
             :to="{ name: 'Receiving' }" title="Receiving">
             <i class="mdi mdi-truck col-8"></i>

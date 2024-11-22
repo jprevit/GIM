@@ -24,8 +24,8 @@ function toggleTheme() {
         <div class="row">
           <img src="src\assets\img\Prev-Gem.svg" alt="Gem" class="img-fluid col-2 col-md-1"
             title="Goblin Inventory Management Logo">
-          <p class="m-0 fs-4 fs-md-2 col-6 col-md-11 d-none d-md-block">Goblin Inventory Management</p>
-          <p class="m-0 fs-4 fs-md-2 col-6 col-md-11 d-md-none d-block">G.I.M.</p>
+          <p class="m-0 fs-4 fs-md-2 col-6 col-md-11 d-none d-md-block textshadow">Goblin Inventory Management</p>
+          <p class="m-0 fs-4 fs-md-2 col-6 col-md-11 d-md-none d-block textshadow">G.I.M.</p>
         </div>
       </div>
     </router-link>

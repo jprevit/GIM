@@ -5,6 +5,7 @@ import Sidebar from './components/Sidebar.vue';
 </script>
 
 <template>
+  <meta name="description" content="A system to organize your small business.">
   <header>
     <Navbar />
   </header>
@@ -35,6 +36,10 @@ import Sidebar from './components/Sidebar.vue';
 
 .h25 {
   height: 25vh;
+}
+
+.textshadow {
+  text-shadow: rgb(0, 0, 0) 1px 0px 5px;
 }
 
 footer {
